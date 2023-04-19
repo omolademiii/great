@@ -19,6 +19,12 @@
   padding-top: 100px;
 }
 
+.logo{
+  fill: rgb( 255 232 31);
+  width: 100%;
+  max-width: 450px;
+}
+
 .piece{
   font-size: 22px;
   padding-bottom: 3px;
@@ -56,7 +62,7 @@
   height: 330px;
   text-align: left;
   padding: 20px 15px;
-  background-color: aqua;
+  
 }
 
 .link{
@@ -64,4 +70,5 @@
   color: #ffff00;
   padding-top: 10px;
 }
+
 
