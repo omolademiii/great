@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.done{
+  color: #ffff;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.piece{
+  font-size: 22px;
+  padding-bottom: 3px;
+}
+.bord{
+  border: 1px solid red;
+  
+}
+
+.before{
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.main{
+  padding: 40px 20px;
+  background-color: #000000;
+}
+
+.user-list{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 20px 250px;
+  gap: 30px 30px;
+ 
+  
+}
+.movie-info{
+  color: #ffff;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 320px;
+  line-height: 25px;
+  height: 330px;
+  text-align: left;
+  padding: 20px 15px;
+  background-color: aqua;
+}
+
+.link{
+  text-decoration: none;
+  color: #ffff00;
+  padding-top: 10px;
+}
+
