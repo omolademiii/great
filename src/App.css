@@ -5,18 +5,14 @@
 }
 
 #root{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .done{
   color: #ffff;
   margin-bottom: 0;
   text-align: center;
-  padding-top: 100px;
 }
 
 .logo{
@@ -31,7 +27,6 @@
 }
 .bord{
   border: 1px solid red;
-  
 }
 
 .before{
@@ -39,20 +34,25 @@
   padding-bottom: 20px;
 }
 .main{
+  width: 100%;
+  height: 100%;
   padding: 40px 20px;
   background-color: #000000;
 }
 
-.user-list{
+.middleData{
   width: 100%;
-  height: 100vh;
+}
+
+.movie-list{
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   padding: 20px 250px;
   gap: 30px 30px;
- 
-  
 }
+
+
 .movie-info{
   color: #ffff;
   border-radius: 5px;
@@ -71,4 +71,50 @@
   padding-top: 10px;
 }
 
+.movieData{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(35, 35, 35);
+  color: #ffffff;
+  padding: 20px 40px;
+}
 
+.middleTop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+
+.middleTop h1{
+  font-size: 35px;
+}
+
+.desc{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.desc .descTitle{
+  font-size: 20px;
+  color: rgb(157, 157, 157);
+  padding-bottom: 20px;
+}
+
+.desc .descFull{
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.char{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 5px 30px;
+}

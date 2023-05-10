@@ -1,5 +1,5 @@
 import React from 'react'
-
+ 
 const Info = (props) => {
     const {userData} = props
   return (
